@@ -1,0 +1,14 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FloraPhysician/app/src/main/res/drawable/ic_signin.xml" value="0.1935185185185185" />
+        <entry key="..\:/FloraPhysician/app/src/main/res/drawable/ic_signupbg.xml" value="0.1935185185185185" />
+        <entry key="..\:/FloraPhysician/app/src/main/res/layout/activity_signin.xml" value="0.1" />
+        <entry key="..\:/FloraPhysician/app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="..\:/FloraPhysician/app/src/main/res/layout/item.xml" value="0.16032608695652173" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK" />
+</project>

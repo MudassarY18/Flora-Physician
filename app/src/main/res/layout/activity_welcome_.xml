@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#211D44"
+    android:weightSum="10"
+    tools:context=".Welcome_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/ivSplash"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/icget" />
+
+
+
+            <TextView
+                android:id="@+id/tvSplash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+               android:layout_marginBottom="5dp"
+                android:text="Flora Physician"
+                android:layout_alignBottom="@id/ivSplash"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="6">
+        <TextView
+            android:id="@+id/tvSubSplash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="8dp"
+            android:layout_below="@+id/spin_kit"
+            android:text="Welcome to Flora Physician\n Real Protector of Crops"
+            android:textAlignment="center"
+            android:textColor="#A3A2AD"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            />
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.Large.Circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            app:SpinKit_Color="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/btnget"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bgbtngreen"
+            android:text="Get Started"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

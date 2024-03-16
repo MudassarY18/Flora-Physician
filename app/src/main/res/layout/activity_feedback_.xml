@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_rating"
+    android:weightSum="2"
+    tools:context=".Feedback_Activity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight=".85">
+    <ImageView
+        android:id="@+id/charPlace"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icthreestar"/>
+
+    <ImageView
+        android:id="@+id/icSprite"
+        android:layout_width="292dp"
+        android:layout_height="273dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icsprite"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight=".25"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_rate"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titlerate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rate The Service"
+           android:gravity="center"
+            android:textColor="#848484"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/rateStars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:numStars="5"
+            android:rating="3"
+            android:stepSize="1"
+            android:theme="@style/RatingBar" />
+
+        <TextView
+            android:id="@+id/resultrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ok App"
+           android:gravity="center"
+            android:textColor="#848484"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <Button
+            android:id="@+id/btnfeedback"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:layout_weight=".25"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bgbtnfeed"
+            android:text="Give Feedback"
+            android:textAllCaps="false"
+            android:textColor="#8E7324"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

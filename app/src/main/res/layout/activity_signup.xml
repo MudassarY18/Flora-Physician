@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_signupbg"
+    tools:context=".signup">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textColor="#ffff"
+        android:layout_marginTop="90dp"
+        android:textSize="45dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:hint="Enter Your Name"
+        android:backgroundTint="#ffff"
+        android:padding="20dp"
+        android:textColor="#ffff"
+        android:layout_marginTop="50dp"
+        android:textSize="14dp"
+        android:inputType="text"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp" />
+
+
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:hint="Enter Your Email"
+        android:textColor="#ffff"
+        android:backgroundTint="#ffff"
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp" />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:hint="Enter Your password"
+        android:backgroundTint="#ffff"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:textColor="#ffff"
+        android:textSize="14dp"
+        android:inputType="textPassword"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp" />
+
+
+    <Button
+        android:id="@+id/reg_ads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="45dp"
+        android:textColor="#ffff"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/emailbtnbg"
+        android:layout_marginRight="45dp"
+        android:onClick="onClickreg"
+        android:text="Register" />
+
+
+</LinearLayout>
